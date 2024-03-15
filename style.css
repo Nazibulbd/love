@@ -1,0 +1,67 @@
+#box{
+    background-color: bisque;
+}
+
+.inner_box{
+    display: flex;
+    justify-content: space-between;
+    padding: 70px;
+}
+.inner_box .inner_1{
+    display: flex;
+    flex-direction: column;
+}
+.inner_box .inner_1 #light{
+    width: 200px;
+    height: 300px;
+}
+.inner_box .inner_1 .button_grup{
+    display: flex;
+    justify-content: space-between;
+}
+.inner_box .inner_1 .button_grup #off{
+    padding: 18px 20px;
+    color: white;
+    font-size: 20px;
+    background-color: red;
+}
+.inner_box .inner_1 .button_grup #on{
+    padding: 18px 20px;
+    color: white;
+    font-size: 20px;
+    background-color: green;
+}
+
+
+.inner_2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.inner_2 img{
+    width: 250px;
+    height: 250px;
+}
+.inner_2 #btn{
+    background-color: #fff;
+    padding: 10px;
+}
+.inner_2 h4{}
+.inner_2 .ans{
+    margin-top: 30px;
+}
+.inner_2 .ans .no{
+    padding: 15px 25px;
+    background-color: red;
+    text-decoration: none;
+    color: #fff;
+    margin-top: 30px;
+}
+.inner_2 .ans .hmm{
+    padding: 15px 20px;
+    background-color: green;
+    text-decoration: none;
+    color: #fff;
+    margin-top: 30px;
+}

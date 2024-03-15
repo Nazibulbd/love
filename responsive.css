@@ -1,0 +1,10 @@
+@media screen and (max-width: 1050px){
+    .inner_box{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .inner_1{
+        margin-bottom: 40px;
+    }
+}
