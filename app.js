@@ -20,9 +20,7 @@ onbtn.addEventListener("click", ()=>{
 const btn = document.getElementById("btn");
 const secretMessage = document.getElementById("secretMessage");
 
-
-
-const msg  = "I love you 😘 আমার শাশুড়ি আম্মার খরচন্নি মেয়ে আমি তোমাকে চোখটিপি দিতে চাই";
+const msg  = "I love you 😘";
 btn.addEventListener("click", (e) =>{
     secretMessage .textContent = msg;
 });
